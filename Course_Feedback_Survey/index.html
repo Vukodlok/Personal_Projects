@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSE Course Feedback Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Course Feedback Survey</h1>
+    <p id="description">This feedback helps me improve my class for next year. Thank you!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name: <input type="text" id="name" required></label>
+        <label for="email" id="email-label">Email: <input type="email" id="email" required min="12"></label>
+        <label for="number" id="number-label">Grade: <input type="number" id="number" required min="9" max="12"></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown" id="dropdown"><h4>Which of the units we covered was your favorite?</h4><select id="dropdown" required>
+          <option value="1">How Computers Work</option>
+          <option value="2">Web Design</option>
+          <option value="3">Scratch Programming</option>
+          <option value="4">Robotics</option>
+          <option value="5">Python Programming</option>
+        </select>
+        </label>
+        <h4>Did you think the teacher was fair?</h4>
+        <div class="radio-container"><input id="fair-yes" type="radio" name="fair"><label for="fair-yes">Yes</label></div>
+        <div class="radio-container"><input id="fair-no" type="radio" name="fair"><label for="fair-no">No</label></div>
+        <div class="radio-container"><input id="fair-sometimes" type="radio" name="fair"><label for="fair-sometimes">Sometimes</label></div>
+        <h4>How was the pacing of the class?</h4>
+        <div class="radio-container"><input id="pacing-too-fast" type="radio" name="pacing"><label for="pacing-too-fast">Too Fast</label></div>
+        <div class="radio-container"><input id="pacing-good" type="radio" name="pacing"><label for="pacing-good">Good</label></div>
+        <div class="radio-container"><input id="pacing-too-slow" type="radio" name="pacing"><label for="pacing-too-slow">Too Slow</label></div>
+        <h4>Was Schoology easy to use?</h4>
+        <div class="radio-container"><input id="schoology-yes" type="radio" name="schoology"><label for="schoology-yes">Yes</label></div>
+        <div class="radio-container"><input id="schoology-no" type="radio" name="schoology"><label for="schoology-no">No</label></div>
+        <h4>Was the process for turning in assignments easy to use?</h4>
+        <div class="radio-container"><input id="assignments-yes" type="radio" name="assignments"><label for="assignments-yes">Yes</label></div>
+        <div class="radio-container"><input id="assignments-no" type="radio" name="assignments"><label for="assignments-no">No</label></div>
+        <h4>Would you liked to have covered any of the following topics? (Check all that apply)</h4>
+        <div class="checkbox-container"><input type="checkbox" id="web" value="web" name="extra-units"><label for="web">Interactive Web Design</label></div>
+        <div class="checkbox-container"><input type="checkbox" id="repair" value="repair" name="extra-units"><label for="repair">Computer Repair</label></div>
+        <div class="checkbox-container"><input type="checkbox" id="cyber" value="cyber" name="extra-units"><label for="cyber">Cybersecurity</label></div>
+        <div class="checkbox-container"><input type="checkbox" id="graphic" value="graphic" name="extra-units"><label for="graphic">Graphic Design</label></div>
+        <div class="checkbox-container"><input type="checkbox" id="data" value="data" name="extra-units"><label for="data">Data Science</label></div>
+      </fieldset>
+      <fieldset>
+        <label for="comments">Please add any additional comments.<textarea id="comments" name="comments" rows="3" cols="30" placeholder="type feedback here"></textarea></label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
