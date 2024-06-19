@@ -1,0 +1,40 @@
+#image {
+  max-width: 100%;
+  max-height: 800px;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-div {
+  text-align: center;
+}
+
+#img-caption {
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+}
+
+#title {
+  text-align: center;
+  background-color: #ee7777;
+  height: 15%;
+}
+
+#info-div {
+  background-color: #dddddd;
+}
+
+li {
+  padding: 5px 0;
+}
+
+#tribute-link {
+  display: block;
+  background-color: black;
+  color: #ee7777;
+  text-align: center;
+  padding: 20px 0;
+}
