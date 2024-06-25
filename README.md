@@ -12,3 +12,6 @@ An example of some basic Linux commands presented as a documentaion page.  This 
 
 ## Penguin Purchase
 Basic html and css page for purchasing a penguin.  This was made as part of freecodecamp's Responsive Web Design course.
+
+## Fake Portfolio
+This would be a great project for starting a professional portfolio site, unfortunately I already have a fairly detailed site made for myself.  This was made as part of freecodecamp's Responsive Web Design course.
