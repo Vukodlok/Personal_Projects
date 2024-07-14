@@ -15,3 +15,6 @@ Basic html and css page for purchasing a penguin.  This was made as part of free
 
 ## Fake Portfolio
 This would be a great project for starting a professional portfolio site, unfortunately I already have a fairly detailed site made for myself.  This was made as part of freecodecamp's Responsive Web Design course.
+
+## Palindrome Checker
+Building a palindrome checker website using html, css, and javascript.  The user inputs text and clicks a button to check if the text is a palindrome.  This was made as part of freecodecamp's Javascript Algorithms and Data Structures course.
