@@ -18,3 +18,6 @@ This would be a great project for starting a professional portfolio site, unfort
 
 ## Palindrome Checker
 Building a palindrome checker website using html, css, and javascript.  The user inputs text and clicks a button to check if the text is a palindrome.  This was made as part of freecodecamp's Javascript Algorithms and Data Structures course.
+
+## Decimal to Roman Numeral Converter
+Create an algorithm in javascript to convert an integer between 1-3999 and convert it to a roman numeral. Use html and css to create a site for users to enter a value and run the javascript code in order to convert numbers.  This was made as part of freecodecamp's Javascript Algorithms and Data Structures course.
