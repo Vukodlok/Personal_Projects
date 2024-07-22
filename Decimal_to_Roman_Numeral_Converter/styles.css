@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gray: gray;
+  --black: black;
+  --blue: lightblue;
+}
+
+body {
+  background-color: var(--black);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: var(--gray);
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 20px 0;
+}
+
+.input-container {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.convert-btn {
+  background-color: var(--blue);
+  cursor: pointer;
+  border: none;
+  padding: 6px;
+}
+
+.number {
+  height: 25px;
+}
+
+#output {
+  margin: 10px 0;
+  min-width: 200px;
+  width: fit-content;
+  min-height: 80px;
+  word-break: break-word;
+  padding: 15px;
+  border: 5px solid var(--blue);
+  font-size: 2rem;
+  text-align: center;
+}
+
+#animation-container {
+  margin: auto;
+  max-width: 300px;
+}
+
+.animation-frame {
+  margin: 250px auto 0;
+  padding: 15px 10px;
+  border: 5px solid var(--blue);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .input-container {
+    flex-direction: row;
+  }
+
+  #result {
+    max-width: 460px;
+  }
+}
