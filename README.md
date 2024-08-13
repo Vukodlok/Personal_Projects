@@ -24,3 +24,6 @@ Create an algorithm in javascript to convert an integer between 1-3999 and conve
 
 ## Phone Number Format Checker
 Create a javascript program to check a US phone number input and return text to the screen stating if the format is or is not a valid US phone number.  Use html and css to create a site for users to enter a phone number to check.  This was made as part of freecodecamp's Javascript Algorithms and Data Structures course.
+
+## Cash Register
+Create a javascript program to calculate and output to the screen the aount of change to give to a customer given a price and amount of cash paid with.  Use html and css to create a site for users to enter the amount of cash paid with and display the change to be given.  This was made as part of freecodecamp's Javascript Algorithms and Data Structures course.
