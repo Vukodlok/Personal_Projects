@@ -27,3 +27,6 @@ Create a javascript program to check a US phone number input and return text to 
 
 ## Cash Register
 Create a javascript program to calculate and output to the screen the aount of change to give to a customer given a price and amount of cash paid with.  Use html and css to create a site for users to enter the amount of cash paid with and display the change to be given.  This was made as part of freecodecamp's Javascript Algorithms and Data Structures course.
+
+## Pokedex
+Create a javascript program that fetches json data to output information about pokemon to a web app.  Use html and css to create a site for users to enter an id number or name to search the database for.  This was made as part of freecodecamp's Javascript Algorithms and Data Structures course.
