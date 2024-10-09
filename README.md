@@ -30,3 +30,6 @@ Create a javascript program to calculate and output to the screen the aount of c
 
 ## Pokedex
 Create a javascript program that fetches json data to output information about pokemon to a web app.  Use html and css to create a site for users to enter an id number or name to search the database for.  This was made as part of freecodecamp's Javascript Algorithms and Data Structures course.
+
+## Random Simpson's Quote Generator
+Create a web app that fetches a random quote from the show The Simpsons.  Use html, css, and javascript within the React framework to create a button that change the screen colors and fetches the quote from an API to display.  This was made as part of freeCodeCamp's Fron End Development Libraries course.
