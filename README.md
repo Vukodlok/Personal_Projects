@@ -33,3 +33,6 @@ Create a javascript program that fetches json data to output information about p
 
 ## Random Simpson's Quote Generator
 Create a web app that fetches a random quote from the show The Simpsons.  Use html, css, and javascript within the React framework to create a button that change the screen colors and fetches the quote from an API to display.  This was made as part of freeCodeCamp's Fron End Development Libraries course.
+
+## Markdown Previewer
+Create a web app that previews markdown provided by the user. Use html, css, and javascript within the React framework to create an input and output box that uses the marked API to display markdown. This was made as part of freeCodeCamp's Front End Development Libraries course.
