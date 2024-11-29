@@ -36,3 +36,6 @@ Create a web app that fetches a random quote from the show The Simpsons.  Use ht
 
 ## Markdown Previewer
 Create a web app that previews markdown provided by the user. Use html, css, and javascript within the React framework to create an input and output box that uses the marked API to display markdown. This was made as part of freeCodeCamp's Front End Development Libraries course.
+
+## Drum Machine
+Create a web app that plays audio files like a small audio mixing machine.  Use html, css, and javascript within the React-Redux framework.  This was made as part of freeCodeCamp's Front End Development Libraries course.
