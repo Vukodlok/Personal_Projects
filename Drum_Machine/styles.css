@@ -1,0 +1,58 @@
+body {
+  background-color: #bbeeff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*center the drum machine content*/
+#drum-machine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: outset black 8px;
+  padding: 10px;
+  margin: 20px;
+  width: 30vw;
+  height: 60vh;
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.drum-pad {
+  border: solid black 1px;
+  border-radius: 7px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  width: 5vw;
+  height: 10vh;
+  font-size: 40px;
+}
+
+.drum-pad:hover {
+  background-color: grey;
+  cursor: pointer;
+  color: blue;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#display {
+  color: blue;
+}
+
+img {
+  width: 25vw;
+}
