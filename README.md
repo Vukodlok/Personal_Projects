@@ -42,3 +42,6 @@ Create a web app that plays audio files like a small audio mixing machine.  Use 
 
 ## Calculator
 Create a web app calculator.  Use html, css, and javascript within the React-Redux framework.  This was made as part of freeCodeCamp's Front End Development Libraries course.
+
+## Timer
+Create a web app timer.  Use html, css, and javascript within the React-Redux framework.  This was made as part of freeCodeCamp's Front End Development Libraries course.
