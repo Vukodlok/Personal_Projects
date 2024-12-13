@@ -1,0 +1,153 @@
+body {
+  background-color: skyblue;
+}
+
+#container {
+  display: grid;
+  grid-template-areas:
+    "heading heading heading heading heading heading"
+    "session-label session-label session-label break-label break-label break-label"
+    "session-decrement session-length session-increment break-decrement break-length break-increment"
+    "timer-label timer-label timer-label timer-label timer-label timer-label"
+    "time-left time-left time-left time-left time-left time-left"
+    "start_stop start_stop start_stop reset reset reset";
+  grid-template-rows: auto;
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 5px;
+  background-color: #2a6;
+  border: 4px solid #276;
+  border-radius: 5px;
+}
+
+#heading {
+  grid-area: heading;
+}
+
+#break-label {
+  grid-area: break-label;
+}
+
+#session-label {
+  grid-area: session-label;
+}
+
+#break-decrement {
+  grid-area: break-decrement;
+}
+
+#break-length {
+  grid-area: break-length;
+}
+
+#break-increment {
+  grid-area: break-increment;
+}
+
+#session-decrement {
+  grid-area: session-decrement;
+}
+
+#session-length {
+  grid-area: session-length;
+}
+
+#session-increment {
+  gride-area: session-increment;
+}
+
+#timer-label {
+  grid-area: timer-label;
+}
+
+#start_stop {
+  grid-area: start_stop;
+}
+
+#reset {
+  grid-area: reset;
+}
+
+#break-label,
+#session-label {
+  text-align: center;
+}
+
+#session-decrement,
+#session-length,
+#session-increment,
+#break-decrement,
+#break-length,
+#break-increment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#session-length,
+#break-length {
+  font-size: 20px;
+}
+
+#timer-label {
+  grid-area: timer-label;
+  text-align: center;
+  font-size: 26px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+i, h3 {
+  font-size: 24px;
+}
+
+i {
+  color: #276;
+  cursor: pointer;
+  border: solid #276 1px;
+  margin: 5px;
+}
+
+i:active {
+  background-color: #296;
+}
+
+#time-left {
+  grid-area: time-left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #276;
+  border-radius: 5px;
+  font-size: 60px;
+  padding: 20px;
+}
+
+#start_stop,
+#reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+#start_stop {
+  font-size: 30px;
+  color: #aca;
+}
+
+#start_stop.fa-pause {
+  color: orange;
+}
+
+#reset {
+  font-size: 30px;
+  color: #aca;
+}
