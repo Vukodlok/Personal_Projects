@@ -45,3 +45,6 @@ Create a web app calculator.  Use html, css, and javascript within the React-Red
 
 ## Timer
 Create a web app timer.  Use html, css, and javascript within the React-Redux framework.  This was made as part of freeCodeCamp's Front End Development Libraries course.
+
+## Salon Appointment Scheduler
+Create a postgreSQl database and bash script to prompt a user for a service, phone number, name, and time for an appointment and add the information to the database.  This was made as part of freeCodeCamp's Relational Database course.
