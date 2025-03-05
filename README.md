@@ -48,3 +48,6 @@ Create a web app timer.  Use html, css, and javascript within the React-Redux fr
 
 ## Salon Appointment Scheduler
 Create a postgreSQl database and bash script to prompt a user for a service, phone number, name, and time for an appointment and add the information to the database.  This was made as part of freeCodeCamp's Relational Database course.
+
+## Periodic Table
+Modify an existing postgreSQL database and create a bask script for querying the database for information on an element in the periodic table. This was made as part of freeCodeCamp's Relational Database course.
