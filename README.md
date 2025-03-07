@@ -51,3 +51,7 @@ Create a postgreSQl database and bash script to prompt a user for a service, pho
 
 ## Periodic Table
 Modify an existing postgreSQL database and create a bask script for querying the database for information on an element in the periodic table. This was made as part of freeCodeCamp's Relational Database course.
+
+## Number Guessing Game & Database
+Building a postgreSQL database and bash script for a number guessing game that tracks usernames and best scores. This was made as part of freeCodeCamp's Relational Database course.
+
