@@ -21,23 +21,27 @@ app.get("/", function (req, res) {
 
 // timestamp microservice API endpoint
 app.get("/api/:date?", (req, res) => {
-  let dateInput = req.params.date;
+  let dateParam = req.params.date;
   let date;
 
-  if (!dateInput) {
+  if (!dateParam) {
     date = new Date();
   } else {
-    date = new Date(dateInput);
+    if (isNaN(dateParam)) {
+      date = new Date(dateParam);
+    } else {
+      date = new Date(parseInt(dateParam));
+    }
   }
 
-  if (date.getTime()) {
-    res.json({
-      unix: date.getTime(),
-      utc: date.toUTCString()
-    });
-  } else {
-    res.json({ error: "Invalid Date" });
+  if (date.toString() === "Invalid Date") {
+    return res.json({ error: "Invalid Date" });
   }
+
+  res.json({
+    unix: date.getTime(),
+    utc: date.toUTCString()
+  });
 });
 
 
