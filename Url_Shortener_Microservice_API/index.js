@@ -40,6 +40,12 @@ app.post('/api/shorturl', (req, res) => {
 app.get ('/api/shorturl/:short_url', (req, res) => {
   const { short_url } = req.params;
   const original_url = urlDatabase[short_url];
+
+  if (original_url) {
+    res.redirect(original_url);
+  } else {
+    res.json({ error: 'No short url found for the given input.'});
+  }
 });
 
 app.listen(port, function() {
