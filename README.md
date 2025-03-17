@@ -57,3 +57,6 @@ Building a postgreSQL database and bash script for a number guessing game that t
 
 ## Timestamp Microservice API
 Use Node.js, Express, and an API to create a timestamp microservice.  This was made as part of freeCodeCamp's Back End Development and APIs course.
+
+## Request Header Info Microservice API
+Use Node.js, Express, and an API to create a request header info microservice.  This was made as part of freeCodeCamp's Back End Development and APIs course.
