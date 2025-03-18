@@ -63,3 +63,6 @@ Use Node.js, Express, and an API to create a request header info microservice.  
 
 ## Url Shortener Microservice API
 Use Node.js, Express, and an API to create a url shortener microservice.  This was made as part of freeCodeCamp's Back End Development and APIs course.
+
+## Exercise Tracker API
+Use Node.js, Express, and an API to create an exercise tracker microservice.  This was made as part of freeCodeCamp's Back End Development and APIs course.
