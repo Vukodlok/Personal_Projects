@@ -66,3 +66,6 @@ Use Node.js, Express, and an API to create a url shortener microservice.  This w
 
 ## Exercise Tracker API
 Use Node.js, Express, and an API to create an exercise tracker microservice.  This was made as part of freeCodeCamp's Back End Development and APIs course.
+
+## File Metadata API
+Use Node.js, Express, and an API to create an file upload metadata listing microservice.  This was made as part of freeCodeCamp's Back End Development and APIs course.
